@@ -1,0 +1,19 @@
+name: Deploy Holiday Crowd Detector Infra
+
+on:
+  push:
+    branches: [ "feature/azure-infra-and-cicd", "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository code
+      uses: actions/checkout@v3
+
+    - name: Validate Bicep Template Syntax
+      run: |
+        echo "Validating main.bicep syntax locally..."
+        az bicep build --file main.bicep

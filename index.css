@@ -1,0 +1,48 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    margin: 0px;
+    padding: 24px;
+}
+
+.store-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.store-card {
+    width: 280px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.store-photo{
+    height: 160px;
+    background-color: #e2e2e2;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+}
+
+.store-info {
+    padding: 12px 16px;
+}
+
+.store-info h3 {
+    margin: 0 0 6px;
+    padding-top: 10px;
+
+}
+
+.store-info h4 {
+    margin: 4px 0; 
+    color: #b36565
+}
+

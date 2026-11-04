@@ -1,9 +1,9 @@
 // main.bicep - Holiday Shopping Crowd Detector Infrastructure
-param location string = 'eastus'
+param location string = 'mexicocentral'
 
 // 1. Serverless Object Storage Account (Fixed: 'st' + unique string = ~15 characters, well under the 24-char limit)
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
-  name: 'st${uniqueString(resourceGroup().id)}'
+  name: 'stcrowddetector'
   location: location
   sku: {
     name: 'Standard_LRS'
@@ -17,7 +17,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
 
 // 2. Cosmos DB Account in Serverless Mode (For store metadata and user alerts)
 resource cosmosAccount 'Microsoft.DocumentDB/databaseAccounts@2023-04-15' = {
-  name: 'cosmos-crowd-db-${uniqueString(resourceGroup().id)}'
+  name: 'cosmosdb-crowddetector'
   location: location
   kind: 'GlobalDocumentDB'
   properties: {

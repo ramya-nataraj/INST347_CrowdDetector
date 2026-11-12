@@ -1,0 +1,13 @@
+{
+  "name": "crowd-data",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "mock": "node scripts/generate-mock.js",
+    "seed": "node scripts/seed-cosmos.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0",
+    "dotenv": "^16.4.5"
+  }
+}

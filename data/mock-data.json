@@ -1,0 +1,984 @@
+{
+  "levelToPct": {
+    "small": 20,
+    "medium": 50,
+    "large": 85
+  },
+  "stores": [
+    {
+      "id": "target-hyattsville",
+      "name": "Target - Hyattsville",
+      "address": "Prince George's Plaza, Hyattsville, MD",
+      "lat": 38.9657,
+      "lng": -76.9558,
+      "maxCapacity": 250,
+      "deals": [
+        "20% off toys"
+      ],
+      "hours": {
+        "mon": "8:00-22:00",
+        "tue": "8:00-22:00",
+        "wed": "8:00-22:00",
+        "thu": "8:00-22:00",
+        "fri": "8:00-23:00",
+        "sat": "8:00-23:00",
+        "sun": "9:00-21:00"
+      },
+      "photoUrl": "stores/target-hyattsville.jpg",
+      "latest": {
+        "level": "small",
+        "capacityPct": 20,
+        "status": "ok",
+        "updatedAt": "2026-11-12T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "walmart-beltsville",
+      "name": "Walmart - Beltsville",
+      "address": "Beltsville, MD",
+      "lat": 39.0348,
+      "lng": -76.9075,
+      "maxCapacity": 400,
+      "deals": [
+        "Black Friday electronics doorbusters"
+      ],
+      "hours": {
+        "mon": "8:00-22:00",
+        "tue": "8:00-22:00",
+        "wed": "8:00-22:00",
+        "thu": "8:00-22:00",
+        "fri": "8:00-23:00",
+        "sat": "8:00-23:00",
+        "sun": "9:00-21:00"
+      },
+      "photoUrl": "stores/walmart-beltsville.jpg",
+      "latest": {
+        "level": "small",
+        "capacityPct": 20,
+        "status": "ok",
+        "updatedAt": "2026-11-12T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "bestbuy-silver-spring",
+      "name": "Best Buy - Silver Spring",
+      "address": "Silver Spring, MD",
+      "lat": 38.9907,
+      "lng": -77.0261,
+      "maxCapacity": 180,
+      "deals": [
+        "Up to $200 off TVs"
+      ],
+      "hours": {
+        "mon": "8:00-22:00",
+        "tue": "8:00-22:00",
+        "wed": "8:00-22:00",
+        "thu": "8:00-22:00",
+        "fri": "8:00-23:00",
+        "sat": "8:00-23:00",
+        "sun": "9:00-21:00"
+      },
+      "photoUrl": "stores/bestbuy-silver-spring.jpg",
+      "latest": {
+        "level": "small",
+        "capacityPct": 20,
+        "status": "ok",
+        "updatedAt": "2026-11-12T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "macys-wheaton",
+      "name": "Macy's - Wheaton",
+      "address": "Westfield Wheaton, Wheaton, MD",
+      "lat": 39.0376,
+      "lng": -77.0561,
+      "maxCapacity": 300,
+      "deals": [
+        "Extra 25% off clearance"
+      ],
+      "hours": {
+        "mon": "8:00-22:00",
+        "tue": "8:00-22:00",
+        "wed": "8:00-22:00",
+        "thu": "8:00-22:00",
+        "fri": "8:00-23:00",
+        "sat": "8:00-23:00",
+        "sun": "9:00-21:00"
+      },
+      "photoUrl": "stores/macys-wheaton.jpg",
+      "latest": {
+        "level": "small",
+        "capacityPct": 20,
+        "status": "ok",
+        "updatedAt": "2026-11-12T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "costco-white-oak",
+      "name": "Costco - White Oak",
+      "address": "White Oak, MD",
+      "lat": 39.0357,
+      "lng": -76.9933,
+      "maxCapacity": 500,
+      "deals": [],
+      "hours": {
+        "mon": "8:00-22:00",
+        "tue": "8:00-22:00",
+        "wed": "8:00-22:00",
+        "thu": "8:00-22:00",
+        "fri": "8:00-23:00",
+        "sat": "8:00-23:00",
+        "sun": "9:00-21:00"
+      },
+      "photoUrl": "stores/costco-white-oak.jpg",
+      "latest": {
+        "level": null,
+        "capacityPct": null,
+        "status": "unavailable",
+        "updatedAt": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "target-hyattsville-1794438000000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-11T23:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794441600000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794445200000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T01:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794448800000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T02:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794452400000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T03:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794456000000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T04:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794459600000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T05:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794463200000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T06:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794466800000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T07:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794470400000",
+      "storeId": "target-hyattsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794474000000",
+      "storeId": "target-hyattsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T09:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794477600000",
+      "storeId": "target-hyattsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794481200000",
+      "storeId": "target-hyattsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T11:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794484800000",
+      "storeId": "target-hyattsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794488400000",
+      "storeId": "target-hyattsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T13:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794492000000",
+      "storeId": "target-hyattsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T14:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794495600000",
+      "storeId": "target-hyattsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794499200000",
+      "storeId": "target-hyattsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T16:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794502800000",
+      "storeId": "target-hyattsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T17:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794506400000",
+      "storeId": "target-hyattsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794510000000",
+      "storeId": "target-hyattsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T19:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794513600000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794517200000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T21:00:00.000Z"
+    },
+    {
+      "id": "target-hyattsville-1794520800000",
+      "storeId": "target-hyattsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T22:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794438000000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-11T23:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794441600000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794445200000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T01:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794448800000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T02:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794452400000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T03:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794456000000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T04:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794459600000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T05:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794463200000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T06:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794466800000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T07:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794470400000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794474000000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T09:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794477600000",
+      "storeId": "walmart-beltsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794481200000",
+      "storeId": "walmart-beltsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T11:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794484800000",
+      "storeId": "walmart-beltsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794488400000",
+      "storeId": "walmart-beltsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T13:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794492000000",
+      "storeId": "walmart-beltsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T14:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794495600000",
+      "storeId": "walmart-beltsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794499200000",
+      "storeId": "walmart-beltsville",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T16:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794502800000",
+      "storeId": "walmart-beltsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T17:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794506400000",
+      "storeId": "walmart-beltsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794510000000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T19:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794513600000",
+      "storeId": "walmart-beltsville",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794517200000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T21:00:00.000Z"
+    },
+    {
+      "id": "walmart-beltsville-1794520800000",
+      "storeId": "walmart-beltsville",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T22:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794438000000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-11T23:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794441600000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794445200000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T01:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794448800000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T02:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794452400000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T03:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794456000000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T04:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794459600000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T05:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794463200000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T06:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794466800000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T07:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794470400000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794474000000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T09:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794477600000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794481200000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T11:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794484800000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794488400000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T13:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794492000000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T14:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794495600000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794499200000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T16:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794502800000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T17:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794506400000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794510000000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T19:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794513600000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794517200000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T21:00:00.000Z"
+    },
+    {
+      "id": "bestbuy-silver-spring-1794520800000",
+      "storeId": "bestbuy-silver-spring",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T22:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794438000000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-11T23:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794441600000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794445200000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T01:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794448800000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T02:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794452400000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T03:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794456000000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T04:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794459600000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T05:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794463200000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T06:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794466800000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T07:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794470400000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794474000000",
+      "storeId": "macys-wheaton",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T09:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794477600000",
+      "storeId": "macys-wheaton",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794481200000",
+      "storeId": "macys-wheaton",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T11:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794484800000",
+      "storeId": "macys-wheaton",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794488400000",
+      "storeId": "macys-wheaton",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T13:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794492000000",
+      "storeId": "macys-wheaton",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T14:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794495600000",
+      "storeId": "macys-wheaton",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794499200000",
+      "storeId": "macys-wheaton",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T16:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794502800000",
+      "storeId": "macys-wheaton",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T17:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794506400000",
+      "storeId": "macys-wheaton",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794510000000",
+      "storeId": "macys-wheaton",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T19:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794513600000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794517200000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T21:00:00.000Z"
+    },
+    {
+      "id": "macys-wheaton-1794520800000",
+      "storeId": "macys-wheaton",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T22:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794438000000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-11T23:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794441600000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794445200000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T01:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794448800000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T02:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794452400000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T03:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794456000000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T04:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794459600000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T05:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794463200000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T06:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794466800000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T07:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794470400000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794474000000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T09:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794477600000",
+      "storeId": "costco-white-oak",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794481200000",
+      "storeId": "costco-white-oak",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T11:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794484800000",
+      "storeId": "costco-white-oak",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794488400000",
+      "storeId": "costco-white-oak",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T13:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794492000000",
+      "storeId": "costco-white-oak",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T14:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794495600000",
+      "storeId": "costco-white-oak",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794499200000",
+      "storeId": "costco-white-oak",
+      "level": "large",
+      "capacityPct": 85,
+      "timestamp": "2026-11-12T16:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794502800000",
+      "storeId": "costco-white-oak",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T17:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794506400000",
+      "storeId": "costco-white-oak",
+      "level": "medium",
+      "capacityPct": 50,
+      "timestamp": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794510000000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T19:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794513600000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794517200000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T21:00:00.000Z"
+    },
+    {
+      "id": "costco-white-oak-1794520800000",
+      "storeId": "costco-white-oak",
+      "level": "small",
+      "capacityPct": 20,
+      "timestamp": "2026-11-12T22:00:00.000Z"
+    }
+  ]
+}

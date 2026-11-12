@@ -1,4 +1,4 @@
-name: Deploy Holiday Crowd Detector Infra
+name: Deploy Holiday Crowd Detector
 
 on:
   push:
@@ -11,8 +11,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Validate Bicep Template Syntax
-      run: |
-        az bicep build --file main.bicep
+      run: az bicep build --file main.bicep
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install backend dependencies
+      run: pip install -r backend/requirements.txt --target backend/.python_packages/lib/site-packages
+
+    - name: Deploy backend to Azure Functions
+      if: github.event_name == 'push'
+      uses: Azure/functions-action@v1
+      with:
+        app-name: funcapp-crowddetector
+        package: backend
+        publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
